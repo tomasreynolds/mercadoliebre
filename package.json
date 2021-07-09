@@ -1,14 +1,23 @@
 {
-  "name": "proyecto",
+  "name": "mercadoliebre",
   "version": "1.0.0",
   "description": "proyecto de prueba",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "tomas reynolds",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomasreynolds/mercadoliebre.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tomasreynolds/mercadoliebre/issues"
+  },
+  "homepage": "https://github.com/tomasreynolds/mercadoliebre#readme"
 }
