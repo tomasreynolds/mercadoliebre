@@ -267,6 +267,11 @@ h6{
 
 @media (max-width:480px){
 
+.formulario{
+    width:70%;
+}
+
+
 .espacio-home{
     padding:20px;
 }
@@ -361,6 +366,9 @@ h6{
 
 @media (min-width:481px) AND (max-width:768px){
 
+.formulario{
+    width:60%;
+}
 
 .datos3{
     padding-right:20px;
@@ -457,6 +465,10 @@ h6{
 
 @media (min-width:769px){
 
+.formulario{
+    width:40%;
+}
+
 
 .precio-descuento {
     display: flex;
@@ -474,7 +486,7 @@ h6{
     bottom: 65px;
 }
 }
-}
+
 
 @media (min-width:769px) AND (max-width:824px){
 
@@ -610,7 +622,6 @@ h6{
     border-bottom-left-radius: 7px;
     display:flex;
     flex-direction: column;
-    width:60%;
     margin:auto;
 }
 
