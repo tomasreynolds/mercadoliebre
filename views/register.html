@@ -19,8 +19,8 @@ rel="stylesheet" />
     <header class="header-home">
         <div>
             <div class="datos-header-top">
-                <img src="/img/logo-mercado-liebre.svg" alt="logo mercado liebre" class="logo">
-                <form class="busqueda-lupa">
+                <a href="../home.html"> <img src="/img/logo-mercado-liebre.svg" alt="logo mercado liebre" class="logo"></a>
+                <form action="/encontrar-producto" method="GET" class="busqueda-lupa">
                     <input placeholder= "Buscar productos, marcas y más" class="input-busqueda"> </input>
                     <button> <i class="fas fa-search" id="lupa"></i></button>
                 </form>
@@ -63,10 +63,10 @@ rel="stylesheet" />
                 <div class="registros1">
                     
                     <label class="introducciones"> Nombre y apellido </label>
-                    <input  class="input-register"> </input>
+                    <input  class="input-register" placeholder="Tal como figura en el DNI"> </input>
                     <div class="raya"></div>
                     <label class="introducciones"> Nombre de usuario </label>
-                    <input  class="input-register"> </input>
+                    <input  class="input-register" placeholder="Entre 6 y 10 caracteres sin espacios"> </input>
                     <div class="raya"></div>
                     <label class="introducciones"> Correo electrónico </label>
                     <input type="email"  class="input-register"> </input>
@@ -78,7 +78,7 @@ rel="stylesheet" />
                     <input type="date" class="input-register"> </input>
                     <div class="raya"></div>
                     <label class="introducciones"> Domicilio </label>
-                    <input  class="input-register"> </input>
+                    <input  class="input-register" placeholder="En el que residas en este momento"> </input>
                 </div>
                 <div class="raya"></div>
                     <p class="introducciones"> Perfil de usuario </p>
@@ -107,7 +107,7 @@ rel="stylesheet" />
                 <label class="introducciones"> Ingresá una contraseña  </label>
 
                 <div class="registros1">
-                    <input type="password" placeholder="Contraseña" class="input-register"> </input>
+                    <input type="password" placeholder="Entre 6 y 15 caracteres" class="input-register"> </input>
                     <input type="password" placeholder="Confirmar contraseña" class="input-register"> </input>
                 </div>
 
