@@ -639,14 +639,6 @@ h6{
     
 }
 
-.raya{
-    border-top: solid 1px;
-    width:50%;
-    margin:auto;
-    color:#EAC926;
-    padding-bottom:5px;
-}
-
 .registros1{
     display: flex;
     flex-direction: column;
